@@ -12,9 +12,9 @@ class Reporter implements \JsonSerializable
 
     public ?string $name = null;
 
-    public string $emailAddress;
+    public ?string $emailAddress = null;
 
-    public array|null $avatarUrls;
+    public ?array $avatarUrls;
 
     public string $displayName;
 
